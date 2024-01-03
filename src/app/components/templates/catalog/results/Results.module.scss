@@ -1,0 +1,98 @@
+.results {
+  margin-top: 100px;
+
+  .results__heading {
+    border-radius: 10px;
+    background: #fff;
+
+    .heading__inner {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .inner__title {
+        .title__text {
+          color: #000;
+          font-family: Hauora;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 110%; /* 35.2px */
+          text-transform: uppercase;
+          .text__custom {
+            color: #8d8be5;
+            font-family: Hauora;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%;
+            text-transform: uppercase;
+          }
+        }
+      }
+      .inner__filter {
+        max-width: 210px;
+        width: 100%;
+
+        .dropdown__body {
+          border-radius: 10px;
+          background: #f6f6f5;
+
+          transition: all 0.3s;
+
+          .body__inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 31px 13px 30px;
+
+            .body__title {
+              .title__text {
+                color: #919191;
+                font-family: Hauora;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 120%; /* 21.6px */
+              }
+            }
+            .body__arrow {
+            }
+          }
+
+          &:hover {
+            cursor: pointer;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+  .results__list {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(380px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 24px;
+    margin-top: 86px;
+  }
+
+  .results__more {
+    border-radius: 20px;
+    background: #fff;
+    width: 180px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 35px;
+    transition: all 0.3s;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+}

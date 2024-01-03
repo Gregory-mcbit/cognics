@@ -1,0 +1,23 @@
+.additional_info {
+  display: flex;
+  margin-top: 56px;
+}
+.additional_info .additional_info__text {
+  color: #303030;
+  text-align: justify;
+  font-family: Hauora;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 33.6px */
+  text-transform: uppercase;
+}
+.additional_info .additional_info__text .text__custom {
+  color: #8d8be5;
+  font-family: Hauora;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: uppercase;
+}/*# sourceMappingURL=additionalInfo.module.css.map */

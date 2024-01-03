@@ -1,0 +1,9 @@
+.review_stars {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.review_stars .item__inactive svg path {
+  fill: #dadada;
+}/*# sourceMappingURL=ReviewStars.module.css.map */

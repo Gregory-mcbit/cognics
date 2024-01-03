@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.item .item__tag {
+  border-radius: 100px;
+  background: linear-gradient(0deg, #8d8be5 0%, #8d8be5 100%), #8d8be5;
+}
+.item .item__tag .tag__title {
+  padding: 10px;
+  white-space: nowrap;
+}
+.item .item__tag .tag__title .title__text {
+  color: #fff;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 18px */
+  letter-spacing: 0.18px;
+}
+.item .item__star {
+  display: flex;
+}/*# sourceMappingURL=Item.module.css.map */

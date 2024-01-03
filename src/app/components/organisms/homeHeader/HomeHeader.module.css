@@ -1,0 +1,48 @@
+.header {
+  border-radius: 10px;
+  background: #fff;
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header .header__inner {
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header__inner .inner__logo {
+  display: flex;
+}
+.header .header__inner .inner__navigation_list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header .header__inner .inner__navigation_list .navigation_list__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header .header__inner .inner__navigation_list .navigation_list__item .item__image {
+  display: flex;
+}
+.header .header__inner .inner__profile {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.header .header__inner .inner__profile .profile__title .title__text {
+  color: #000;
+  text-align: right;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header .header__inner .inner__profile .profile__avatar {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+}/*# sourceMappingURL=HomeHeader.module.css.map */

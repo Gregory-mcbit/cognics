@@ -1,0 +1,17 @@
+.review_stars {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .stars__item {
+  }
+
+  .item__inactive {
+    svg {
+      path {
+        fill: #dadada;
+      }
+    }
+  }
+}

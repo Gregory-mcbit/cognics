@@ -1,0 +1,36 @@
+.about_specialists {
+  border-radius: 10px;
+  background: #fff;
+  width: 100%;
+}
+.about_specialists .about_specialists__inner {
+  padding: 22px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about_specialists .about_specialists__inner .inner__title .title__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 35.2px */
+  text-transform: uppercase;
+}
+.about_specialists .about_specialists__inner .inner__title .title__text .text__custom {
+  color: #8d8be5;
+  font-family: Hauora;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+.about_specialists .about_specialists__inner .inner__title .title__text .text__custom svg {
+  margin-bottom: 20px;
+}
+.about_specialists .about_specialists__inner .inner__button {
+  max-width: 218px;
+  width: 100%;
+}/*# sourceMappingURL=AboutSpecialists.module.css.map */

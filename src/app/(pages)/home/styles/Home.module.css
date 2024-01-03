@@ -1,0 +1,10 @@
+.home {
+  background: #f2f2f2;
+  width: 100vw;
+  height: 100vh;
+}
+.home .home__main {
+  margin: 0 auto;
+  max-width: 1180px;
+  width: 100%;
+}/*# sourceMappingURL=Home.module.css.map */

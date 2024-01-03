@@ -1,0 +1,16 @@
+.back {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.back .back__arrow {
+  display: flex;
+}
+.back .back__title .title__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=Back.module.css.map */

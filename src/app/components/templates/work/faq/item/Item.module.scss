@@ -1,0 +1,25 @@
+.item {
+  border-radius: 10px;
+  background: #fff;
+
+  .item__inner {
+    padding: 26px 30px 26px 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .inner__title {
+      .title__text {
+        color: #000;
+        font-family: Hauora;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%; /* 19.8px */
+      }
+    }
+    .inner__image {
+      display: flex;
+    }
+  }
+}

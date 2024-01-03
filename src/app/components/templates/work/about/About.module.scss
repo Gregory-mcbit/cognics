@@ -1,0 +1,102 @@
+.about {
+  margin-top: 20px;
+
+  .about__upper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .upper__info {
+      border-radius: 20px;
+      background: #fff;
+      width: 570px;
+
+      .info__inner {
+        padding: 37px 40px 29px 40px;
+
+        .inner__title {
+          max-width: 469px;
+
+          .title__text {
+            color: #000;
+            font-family: Hauora;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%; /* 52.8px */
+            text-transform: uppercase;
+            .text__custom {
+              color: #8d8be5;
+              font-family: Hauora;
+              font-size: 48px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 110%;
+              text-transform: uppercase;
+            }
+          }
+
+          svg {
+            margin-bottom: 20px;
+          }
+        }
+        .inner__description {
+          margin-top: 190px;
+          max-width: 439px;
+
+          .description__text {
+            color: #000;
+            font-family: Hauora;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%; /* 20.8px */
+          }
+        }
+      }
+    }
+    .upper__illustration {
+      display: flex;
+      align-items: flex-end;
+      width: 570px;
+      height: 400px;
+
+      .illustration__button {
+        padding-left: 36px;
+        padding-bottom: 30px;
+        max-width: 280px;
+        width: 100%;
+      }
+    }
+  }
+  .about__advantages {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .about__subtext {
+    display: flex;
+    margin-top: 33px;
+
+    .subtext__text {
+      color: #303030;
+      font-family: Hauora;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 110%; /* 30.8px */
+      text-transform: uppercase;
+
+      .text__custom {
+        color: #8d8be5;
+        font-family: Hauora;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110%;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

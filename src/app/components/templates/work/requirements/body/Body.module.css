@@ -1,0 +1,15 @@
+.body {
+  border-radius: 20px;
+  background: #fff;
+  margin-top: 10px;
+}
+.body .body__inner {
+  padding: 56px 80px 59px 60px;
+  display: flex;
+  gap: 67px;
+}
+.body .body__inner .inner__list {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}/*# sourceMappingURL=Body.module.css.map */

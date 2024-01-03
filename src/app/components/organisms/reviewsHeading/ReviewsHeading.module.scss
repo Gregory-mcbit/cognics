@@ -1,0 +1,28 @@
+.reviews_heading {
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 116px;
+
+  .reviews_heading__inner {
+    padding: 23px 20px 22px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .inner__title {
+      .title__text {
+        color: #8d8be5;
+        font-family: Hauora;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%; /* 35.2px */
+        text-transform: uppercase;
+      }
+    }
+    .inner__button {
+      max-width: 220px;
+      width: 100%;
+    }
+  }
+}

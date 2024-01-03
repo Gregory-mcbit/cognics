@@ -1,0 +1,56 @@
+.skills {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.skills .skills__for_whom {
+  border-radius: 20px;
+  background: #fff;
+  width: 220px;
+  height: 190px;
+}
+.skills .skills__for_whom .for_whom__inner {
+  padding: 16px 30px 44px 20px;
+}
+.skills .skills__for_whom .for_whom__inner .inner__title .title__text {
+  color: #000;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 19.2px */
+  text-transform: uppercase;
+}
+.skills .skills__for_whom .for_whom__inner .inner__list {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.skills .skills__vector {
+  border-radius: 20px;
+  background: #fff;
+  width: 380px;
+  height: 190px;
+}
+.skills .skills__vector .vector__inner {
+  padding: 16px 52px 74px 20px;
+}
+.skills .skills__vector .vector__inner .inner__title .title__text {
+  color: #000;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 19.2px */
+  text-transform: uppercase;
+}
+.skills .skills__vector .vector__inner .inner__list {
+  display: grid;
+  margin-top: 15px;
+  grid-template-columns: repeat(2, minmax(164px, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}/*# sourceMappingURL=Skills.module.css.map */

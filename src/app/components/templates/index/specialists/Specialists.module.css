@@ -1,0 +1,9 @@
+.specialists {
+  margin-top: 119px;
+}
+.specialists .specialists__list {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}/*# sourceMappingURL=Specialists.module.css.map */

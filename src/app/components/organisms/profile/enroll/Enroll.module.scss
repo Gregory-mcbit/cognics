@@ -1,0 +1,54 @@
+.enroll {
+  border-radius: 20px;
+  background: #fff;
+  width: 560px;
+  height: 170px;
+  position: relative;
+
+  .enroll__inner {
+    padding: 39px 20px 15px 40px;
+
+    .inner__controls {
+      .controls__button {
+        border-radius: 10px;
+        background: #8d8be5;
+        width: 340px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .button__text {
+          color: #fff;
+          text-align: center;
+          font-family: Hauora;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 120%; /* 21.6px */
+        }
+      }
+      .controls__description {
+        text-align: center;
+        margin-top: 14px;
+        max-width: 248px;
+        margin-left: 46px;
+        .description__text {
+          color: #000;
+          text-align: center;
+          font-family: Hauora;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 100%; /* 16px */
+          letter-spacing: 0.16px;
+        }
+      }
+    }
+  }
+  .enroll__image {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+  }
+}

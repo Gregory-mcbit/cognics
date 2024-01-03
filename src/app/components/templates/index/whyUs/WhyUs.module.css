@@ -1,0 +1,7 @@
+.why_us {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 64px;
+  grid-row-gap: 24px;
+  margin-top: 86px;
+}/*# sourceMappingURL=WhyUs.module.css.map */

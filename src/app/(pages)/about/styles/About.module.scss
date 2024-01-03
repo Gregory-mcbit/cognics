@@ -1,0 +1,15 @@
+.about {
+  background: #f5f5f5;
+
+  .about__main {
+    margin: 0 auto;
+    max-width: 1180px;
+    width: 100%;
+
+    .main__item {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+  }
+}

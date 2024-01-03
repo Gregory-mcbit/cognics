@@ -1,0 +1,136 @@
+.whykpt {
+  margin-top: 190px;
+}
+.whykpt .whykpt__title {
+  text-align: center;
+}
+.whykpt .whykpt__title .title__text {
+  color: #000;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 52.8px */
+  text-transform: uppercase;
+}
+.whykpt .whykpt__colored_title {
+  text-align: center;
+}
+.whykpt .whykpt__colored_title .colored_title__text {
+  color: #8d8be5;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 52.8px */
+  text-transform: uppercase;
+}
+.whykpt .whykpt__colored_title .colored_title__text svg {
+  margin-bottom: 20px;
+}
+.whykpt .whykpt__info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+.whykpt .whykpt__info .info__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 610px;
+  width: 100%;
+}
+.whykpt .whykpt__info .info__container .info__about {
+  border-radius: 20px;
+  background: #fff;
+}
+.whykpt .whykpt__info .info__container .info__about .about__inner {
+  padding: 40px 40px 50px 40px;
+}
+.whykpt .whykpt__info .info__container .info__about .about__inner .inner__title {
+  max-width: 410px;
+}
+.whykpt .whykpt__info .info__container .info__about .about__inner .inner__title .title__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 30.8px */
+  text-transform: uppercase;
+}
+.whykpt .whykpt__info .info__container .info__about .about__inner .inner__title .title__text .text__custom {
+  color: #8d8be5;
+  font-family: Hauora;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+.whykpt .whykpt__info .info__container .info__about .about__inner .inner__narative {
+  margin-top: 30px;
+  max-width: 530px;
+}
+.whykpt .whykpt__info .info__container .info__about .about__inner .inner__narative .effective__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 15.02px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: 0.16px;
+  white-space: pre-line;
+}
+.whykpt .whykpt__info .info__container .info__effective {
+  border-radius: 20px;
+  background: #fff;
+}
+.whykpt .whykpt__info .info__container .info__effective .effective__inner {
+  padding: 20px 0px 20px 30px;
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+.whykpt .whykpt__info .info__container .info__effective .effective__inner .effective__image {
+  display: flex;
+}
+.whykpt .whykpt__info .info__container .info__effective .effective__inner .effective__info .info__title {
+  max-width: 338px;
+}
+.whykpt .whykpt__info .info__container .info__effective .effective__inner .effective__info .info__title .title__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 19.8px */
+}
+.whykpt .whykpt__info .info__container .info__effective .effective__inner .effective__info .info__description {
+  margin-top: 10px;
+}
+.whykpt .whykpt__info .info__container .info__effective .effective__inner .effective__info .info__description .description__text {
+  color: #a4a4a4;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+}
+.whykpt .whykpt__info .info__illustration {
+  width: 100%;
+  height: 720px;
+  max-width: 560px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+}
+.whykpt .whykpt__info .info__illustration .illustration__button {
+  padding-right: 49px;
+  padding-bottom: 30px;
+  max-width: 280px;
+  width: 100%;
+}/*# sourceMappingURL=WhyKpt.module.css.map */

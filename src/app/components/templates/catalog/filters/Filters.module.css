@@ -1,0 +1,20 @@
+.filters {
+  margin-top: 72px;
+}
+.filters .filters__dropdowns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.filters .filters__dropdowns_second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 36px;
+}
+.filters .dropdowns__item {
+  max-width: 320px;
+  width: 100%;
+}/*# sourceMappingURL=Filters.module.css.map */

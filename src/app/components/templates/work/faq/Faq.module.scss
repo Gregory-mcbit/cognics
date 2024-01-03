@@ -1,0 +1,36 @@
+.faq {
+  margin-top: 160px;
+
+  .faq__title {
+    text-align: center;
+    .title__text {
+      color: #000;
+      text-align: center;
+      font-family: Hauora;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 110%; /* 52.8px */
+      text-transform: uppercase;
+      .text__custom {
+        color: #8d8be5;
+        font-family: Hauora;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        text-transform: uppercase;
+      }
+    }
+
+    svg {
+      margin-bottom: 20px;
+    }
+  }
+  .faq__list {
+    margin-top: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

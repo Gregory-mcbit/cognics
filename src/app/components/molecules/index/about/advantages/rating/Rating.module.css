@@ -1,0 +1,35 @@
+.rating {
+  border-radius: 20px;
+  background: #a19ee9;
+  width: 100%;
+}
+.rating .rating__inner {
+  padding: 29px 23px 27px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.rating .rating__inner .inner__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rating .rating__inner .inner__heading .heading__avatars .avatars__img {
+  display: flex;
+}
+.rating .rating__inner .inner__heading .heading__image {
+  display: flex;
+}
+.rating .rating__inner .inner__score {
+  margin-top: 25px;
+}
+.rating .rating__inner .inner__description {
+  margin-top: 12px;
+}
+.rating .rating__inner .inner__description .description__text {
+  color: #fff;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 18.2px */
+}/*# sourceMappingURL=Rating.module.css.map */

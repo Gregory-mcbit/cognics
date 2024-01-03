@@ -1,0 +1,47 @@
+.description {
+  margin-top: 120px;
+
+  .description__title {
+    max-width: 470px;
+    margin: 0 auto;
+
+    .title__text {
+      color: #000;
+      font-family: Hauora;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 110%; /* 35.2px */
+      text-transform: uppercase;
+      .text__custom {
+        color: #8d8be5;
+        font-family: Hauora;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        text-transform: uppercase;
+      }
+    }
+
+    svg {
+      margin-bottom: 20px;
+    }
+  }
+  .description__description {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 460px;
+    text-align: center;
+
+    .description__text {
+      color: #939393;
+      text-align: center;
+      font-family: Hauora;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%; /* 20.8px */
+    }
+  }
+}

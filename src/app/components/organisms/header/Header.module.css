@@ -1,0 +1,30 @@
+.header {
+  border-radius: 10px;
+  background: #fff;
+}
+.header .header__inner {
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header__inner .inner__logo {
+  display: flex;
+}
+.header .header__inner .inner__navigation_list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header .header__inner .inner__navigation_list .navigation_list__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header .header__inner .inner__navigation_list .navigation_list__item .item__image {
+  display: flex;
+}
+.header .header__inner .inner__sign_in {
+  max-width: 100px;
+  width: 100%;
+}/*# sourceMappingURL=Header.module.css.map */

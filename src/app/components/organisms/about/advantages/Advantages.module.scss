@@ -1,0 +1,115 @@
+.advatanges {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+
+  .advantages__item_long {
+    border-radius: 20px;
+    background: #fff;
+    max-width: 560px;
+    width: 100%;
+
+    .item_long__inner {
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .inner__info {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+
+        .info__title {
+          max-width: 240px;
+
+          .title__text {
+            color: #000;
+
+            font-family: Hauora;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 110%; /* 26.4px */
+            text-transform: uppercase;
+          }
+        }
+        .info__quote {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          .quote__image {
+            display: flex;
+          }
+          .quote__title {
+            max-width: 160px;
+
+            .title__text {
+              color: rgba(141, 139, 229, 1);
+              font-family: Hauora;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 100%; /* 16px */
+            }
+          }
+        }
+      }
+      .inner__image {
+        display: flex;
+      }
+    }
+  }
+
+  .advantages__item {
+    border-radius: 20px;
+    background: #fff;
+    max-width: 300px;
+    width: 100%;
+
+    .item__inner {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 39px;
+
+      .inner__title {
+        max-width: 216px;
+
+        .title__text {
+          color: #8d8be5;
+          font-family: Hauora;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 100%; /* 20px */
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .inner__info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .info__description {
+        max-width: 160px;
+
+        .description__text {
+          color: #000;
+          font-family: Hauora;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 100%; /* 14px */
+        }
+      }
+      .info__image {
+        display: flex;
+      }
+    }
+  }
+}

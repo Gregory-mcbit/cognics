@@ -1,0 +1,51 @@
+.review {
+  border-radius: 20px;
+  background: #fff;
+  max-width: 380px;
+}
+.review .review__inner {
+  padding: 20px 24px 20px 20px;
+}
+.review .review__inner .inner__heading {
+  display: flex;
+  justify-content: space-between;
+}
+.review .review__inner .inner__heading .heading__avatar .avatar__img {
+  display: flex;
+  border-radius: 50%;
+}
+.review .review__inner .inner__heading .heading__date .date__text {
+  color: #707070;
+  text-align: right;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+.review .review__inner .inner__description {
+  margin-top: 14px;
+}
+.review .review__inner .inner__description .description__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+.review .review__inner .inner__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.review .review__inner .inner__footer .footer__name .name__text {
+  color: #707070;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: 0.28px;
+}/*# sourceMappingURL=Review.module.css.map */

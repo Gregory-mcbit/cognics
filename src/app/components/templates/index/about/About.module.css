@@ -1,0 +1,16 @@
+.about {
+  margin-top: 20px;
+}
+.about .about__container {
+  display: flex;
+  gap: 10px;
+}
+.about .about__advantages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.about .about__information {
+  margin-top: 60px;
+}/*# sourceMappingURL=About.module.css.map */

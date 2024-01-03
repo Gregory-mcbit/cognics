@@ -1,0 +1,42 @@
+.rating {
+  border-radius: 20px;
+  background: #a19ee9;
+  width: 100%;
+
+  .rating__inner {
+    padding: 29px 23px 27px 20px;
+    display: flex;
+    flex-direction: column;
+
+    .inner__heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .heading__avatars {
+        .avatars__img {
+          display: flex;
+        }
+      }
+      .heading__image {
+        display: flex;
+      }
+    }
+
+    .inner__score {
+      margin-top: 25px;
+    }
+
+    .inner__description {
+      margin-top: 12px;
+      .description__text {
+        color: #fff;
+        font-family: Hauora;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 18.2px */
+      }
+    }
+  }
+}

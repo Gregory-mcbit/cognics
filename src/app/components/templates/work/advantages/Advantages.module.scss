@@ -1,0 +1,18 @@
+.advantages {
+  .advantages__list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    position: relative;
+
+    .list__item {
+      z-index: 1;
+    }
+
+    .list__arrow {
+      position: absolute;
+      z-index: 0;
+      left: 210px;
+    }
+  }
+}

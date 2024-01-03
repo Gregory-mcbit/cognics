@@ -1,0 +1,16 @@
+.logo {
+  transition: opacity 0.3s;
+}
+.logo .logo__text {
+  color: #8d8be5;
+  font-family: Hauora;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.logo:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}/*# sourceMappingURL=Logo.module.css.map */

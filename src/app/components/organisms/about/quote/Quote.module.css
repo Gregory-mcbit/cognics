@@ -1,0 +1,71 @@
+.quote {
+  border-radius: 20px;
+  background: #fff;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 150px;
+}
+.quote .quote__inner .inner__title {
+  text-align: center;
+}
+.quote .quote__inner .inner__title .title__text {
+  color: #8d8be5;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 41.8px */
+  text-transform: uppercase;
+}
+.quote .quote__inner .inner__body {
+  margin-top: 44px;
+  text-align: center;
+  max-width: 760px;
+}
+.quote .quote__inner .inner__body .body__text {
+  color: #000;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%; /* 33.8px */
+}
+.quote .quote__inner .inner__author {
+  margin-top: 78px;
+}
+.quote .quote__inner .inner__author .author__name {
+  text-align: center;
+}
+.quote .quote__inner .inner__author .author__name .name__text {
+  color: #000;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 24px */
+}
+.quote .quote__inner .inner__author .author__role {
+  text-align: center;
+  margin-top: 7px;
+}
+.quote .quote__inner .inner__author .author__role .role__text {
+  color: #707070;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 16px */
+}
+.quote .quote__image {
+  position: absolute;
+  bottom: 64px;
+  right: 90px;
+}/*# sourceMappingURL=Quote.module.css.map */

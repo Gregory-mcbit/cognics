@@ -1,0 +1,31 @@
+.score {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 100px;
+  max-width: 80px;
+}
+.score .score__inner {
+  padding: 6px 11px;
+  display: flex;
+  gap: 5px;
+}
+.score .score__inner .inner__rating .rating__text {
+  color: #fff;
+  font-family: Hauora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 20.8px */
+}
+.score .score__inner .inner__out_of {
+  display: flex;
+  align-items: center;
+}
+.score .score__inner .inner__out_of .out_of__text {
+  color: #fff;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 18.2px */
+  opacity: 0.8;
+}/*# sourceMappingURL=Score.module.css.map */

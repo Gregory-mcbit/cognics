@@ -1,0 +1,16 @@
+.requirement {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.requirement .requirement__image {
+  display: flex;
+}
+.requirement .requirement__title .title__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 24px */
+}/*# sourceMappingURL=Requirement.module.css.map */

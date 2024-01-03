@@ -1,0 +1,101 @@
+.fill_form {
+  border-radius: 20px;
+  background: #fff;
+  width: 100%;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 190px;
+
+  .fill_form__inner {
+    .inner__title {
+      text-align: center;
+      max-width: 541px;
+
+      .title__text {
+        color: #000;
+        text-align: center;
+        font-family: Hauora;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%; /* 52.8px */
+        text-transform: uppercase;
+
+        .text__custom {
+          color: #8d8be5;
+          font-family: Hauora;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 110%;
+          text-transform: uppercase;
+        }
+      }
+
+      svg {
+        margin-bottom: 20px;
+      }
+    }
+
+    .inner__description {
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 18px;
+      max-width: 400px;
+
+      .description__text {
+        color: #707070;
+        text-align: center;
+        font-family: Hauora;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 20.8px */
+      }
+    }
+
+    .inner__submit {
+      margin: 0 auto;
+      height: 60px;
+      margin-top: 50px;
+      border-radius: 10px;
+      background: #8d8be5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 340px;
+      transition: all 0.3s;
+
+      .submit__text {
+        color: #fff;
+        text-align: center;
+        font-family: Hauora;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 21.6px */
+      }
+
+      &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .fill_form__image_one {
+    position: absolute;
+    top: 88px;
+    left: 74px;
+  }
+
+  .fill_form__image_sec {
+    position: absolute;
+    top: 207px;
+    right: 49px;
+  }
+}

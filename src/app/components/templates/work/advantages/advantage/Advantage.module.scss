@@ -1,0 +1,101 @@
+.advantage {
+  display: flex;
+  align-items: center;
+  max-width: 789px;
+  width: 100%;
+
+  .advantage__info {
+    border-radius: 20px;
+    background: #a19ee9;
+    max-width: 189px;
+    width: 100%;
+    height: 160px;
+
+    .info__inner {
+      padding: 7px 48px 48px 18px;
+
+      .inner__number {
+        max-width: 117px;
+
+        .number__text {
+          color: #fff;
+          font-family: Hauora;
+          font-size: 72px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 110%; /* 79.2px */
+          text-transform: uppercase;
+        }
+      }
+      .inner__title {
+        .title__text {
+          color: #fff;
+          font-family: Hauora;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 100%; /* 14px */
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  .advantage__data {
+    border-radius: 20px;
+    background: #fff;
+    min-width: 600px;
+    width: 100%;
+    height: 160px;
+
+    .data__inner {
+      padding: 25px 28px 32px 28px;
+
+      .inner__title {
+        max-width: 420px;
+
+        .title__text {
+          color: #000;
+          font-family: Hauora;
+          font-size: 26px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 110%; /* 28.6px */
+          text-transform: uppercase;
+        }
+      }
+      .inner__footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 13px;
+
+        .footer__description {
+          max-width: 420px;
+
+          .description__text {
+            color: #a8a8a8;
+            font-family: Hauora;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%; /* 16px */
+            letter-spacing: 0.16px;
+          }
+        }
+        .footer__number {
+          .number__text {
+            color: #a8a8a8;
+            text-align: right;
+            font-family: Hauora;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%; /* 16px */
+            letter-spacing: 0.16px;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}

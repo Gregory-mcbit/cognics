@@ -1,0 +1,20 @@
+.inputs {
+  .inputs__title {
+    .title__text {
+      color: #000;
+
+      font-family: Hauora;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 100%; /* 16px */
+      text-transform: uppercase;
+    }
+  }
+  .inputs__list {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

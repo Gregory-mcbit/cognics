@@ -1,0 +1,133 @@
+.card {
+  border-radius: 20px;
+  background: #fff;
+}
+.card .card__inner {
+  padding: 20px 20px 24px 20px;
+}
+.card .card__inner .inner__heading {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.card .card__inner .inner__heading .heading__image .image__img {
+  display: flex;
+  border-radius: 50%;
+}
+.card .card__inner .inner__heading .heading__rating .rating__title .title__text {
+  color: #707070;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: 0.14px;
+}
+.card .card__inner .inner__name {
+  margin-top: 20px;
+}
+.card .card__inner .inner__name .name__text {
+  color: #8d8be5;
+  font-family: Hauora;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 26.4px */
+  letter-spacing: 0.24px;
+}
+.card .card__inner .inner__description {
+  margin-top: 14px;
+}
+.card .card__inner .inner__description .description__text {
+  color: #707070;
+  font-family: Hauora;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 18.2px */
+  letter-spacing: 0.13px;
+}
+.card .card__inner .inner__stats {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+.card .card__inner .inner__stats .stats__rating .rating__number .number__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 21.67px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 28.171px */
+}
+.card .card__inner .inner__stats .stats__rating .rating__title .title__text {
+  color: #707070;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: 0.14px;
+}
+.card .card__inner .inner__stats .stats__reviews .reviews__number .number__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 21.67px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 28.171px */
+}
+.card .card__inner .inner__stats .stats__reviews .reviews__title .title__text {
+  color: #707070;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: 0.14px;
+}
+.card .card__inner .inner__stats .stats__likes .likes__number .number__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 21.67px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 28.171px */
+}
+.card .card__inner .inner__stats .stats__likes .likes__title .title__text {
+  color: #707070;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: 0.14px;
+}
+.card .card__inner .inner__footer {
+  margin-top: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card .card__inner .inner__footer .footer__media {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.card .card__inner .inner__footer .footer__media .media__image {
+  display: flex;
+}
+.card .card__inner .inner__footer .footer__media .media__title .title__text {
+  color: #707070;
+  font-family: Hauora;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 11px */
+  letter-spacing: 0.11px;
+}
+.card .card__inner .inner__footer .footer__button {
+  max-width: 142px;
+  width: 100%;
+}/*# sourceMappingURL=Card.module.css.map */

@@ -1,0 +1,43 @@
+.heading {
+  border-radius: 20px;
+  background: #a19ee9;
+  margin-top: 120px;
+}
+.heading .heading__inner {
+  padding: 24px 20px 26px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.heading .heading__inner .inner__info .info__tag {
+  margin-top: 34px;
+  border-radius: 40px;
+  background: rgba(0, 0, 0, 0.15);
+  max-width: 230px;
+  padding: 6px 20px 7px 15px;
+}
+.heading .heading__inner .inner__info .info__tag .tag__text {
+  color: #fff;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 20.8px */
+}
+.heading .heading__inner .inner__info .info__title {
+  max-width: 420px;
+  margin-top: 12px;
+}
+.heading .heading__inner .inner__info .info__title .title__text {
+  color: #fff;
+  font-family: Hauora;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 39.6px */
+  text-transform: uppercase;
+}
+.heading .heading__inner .info__controls {
+  max-width: 220px;
+  width: 100%;
+}/*# sourceMappingURL=Heading.module.css.map */

@@ -1,0 +1,36 @@
+.header {
+  border-radius: 10px;
+  background: #fff;
+
+  .header__inner {
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .inner__logo {
+      display: flex;
+    }
+
+    .inner__navigation_list {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .navigation_list__item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .item__image {
+          display: flex;
+        }
+      }
+    }
+
+    .inner__sign_in {
+      max-width: 100px;
+      width: 100%;
+    }
+  }
+}

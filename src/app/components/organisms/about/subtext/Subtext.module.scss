@@ -1,0 +1,25 @@
+.subtext {
+  display: flex;
+  margin-top: 43px;
+
+  .subtext__text {
+    color: #303030;
+    text-align: justify;
+    font-family: Hauora;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 30.8px */
+    text-transform: uppercase;
+
+    .text__custom {
+      color: #8d8be5;
+      font-family: Hauora;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 110%;
+      text-transform: uppercase;
+    }
+  }
+}

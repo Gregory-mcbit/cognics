@@ -1,0 +1,83 @@
+.chat {
+  border-radius: 20px;
+  background: #f2f2f2;
+}
+.chat .chat__inner {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  padding: 12px 11px 17px 12px;
+}
+.chat .chat__inner .inner__info {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.chat .chat__inner .inner__info .info__avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.chat .chat__inner .inner__info .info__about .about__heading {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.chat .chat__inner .inner__info .info__about .about__heading .heading__name .name__text {
+  color: #333;
+  font-family: Hauora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.chat .chat__inner .inner__info .info__about .about__heading .heading__tag {
+  border-radius: 100px;
+  border: 1px solid #000;
+}
+.chat .chat__inner .inner__info .info__about .about__heading .heading__tag .tag__inner {
+  padding: 1px 3px 1px 6px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.chat .chat__inner .inner__info .info__about .about__heading .heading__tag .tag__inner .inner__title .title__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+.chat .chat__inner .inner__info .info__about .about__heading .heading__tag .tag__inner .inner__image {
+  display: flex;
+}
+.chat .chat__inner .inner__info .info__about .about__description {
+  margin-top: 2px;
+}
+.chat .chat__inner .inner__info .info__about .about__description .description__text {
+  color: #333;
+  font-family: Hauora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.chat .chat__inner .inner__date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.chat .chat__inner .inner__date .date__time .time__text {
+  color: #999;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.chat .chat__inner .inner__date .date__message {
+  display: flex;
+}/*# sourceMappingURL=Chat.module.css.map */

@@ -1,0 +1,49 @@
+.info {
+  .info__title {
+    max-width: 460px;
+
+    .title__text {
+      color: #000;
+      font-family: Hauora;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 110%;
+      text-transform: uppercase;
+
+      .text__custom {
+        color: #8d8be5;
+        font-family: Hauora;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110%; /* 52.8px */
+        text-transform: uppercase;
+      }
+
+      svg {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .info__description {
+    max-width: 310px;
+
+    .description__text {
+      color: #707070;
+      font-family: Hauora;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 110%; /* 17.6px */
+    }
+  }
+  .info__image {
+    display: flex;
+    justify-content: right;
+
+    .image__img {
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.input {
+  border-radius: 10px;
+  background: #f6f6f5;
+
+  .input__inner {
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    .inner__placeholder {
+      .placeholder__text {
+        color: #919191;
+        font-family: Hauora;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 21.6px */
+      }
+    }
+
+    .inner__input {
+      .input {
+        background: transparent;
+        outline: none;
+        border: none;
+        color: #4d4d4d;
+        font-family: Hauora;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 21.6px */
+        max-width: 50px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

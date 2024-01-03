@@ -1,0 +1,26 @@
+.profile_header .profile_header__inner {
+  padding: 13px 20px 14px 31px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile_header .profile_header__inner .inner__back {
+  transition: all 0.3s;
+}
+.profile_header .profile_header__inner .inner__back:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.profile_header .profile_header__inner .inner__logo .logo__text {
+  color: #8d8be5;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.profile_header .profile_header__inner .inner__sign_in {
+  max-width: 100px;
+  width: 100%;
+}/*# sourceMappingURL=ProfileHeader.module.css.map */

@@ -1,0 +1,38 @@
+.info {
+  border-radius: 20px;
+  background: #fff;
+  width: 610px;
+  height: 170px;
+  position: relative;
+
+  .info__inner {
+    padding: 18px 30px 20px 20px;
+
+    .inner__title {
+      .title__text {
+        color: #8d8be5;
+        font-family: Hauora;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%; /* 26.4px */
+        text-transform: uppercase;
+      }
+    }
+    .inner__stats {
+      margin-top: 19px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+
+  .info__image {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+
+    .image__img {
+    }
+  }
+}

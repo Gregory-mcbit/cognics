@@ -1,0 +1,34 @@
+.reasons {
+  margin-top: 114px;
+}
+.reasons .reasons__title {
+  text-align: center;
+}
+.reasons .reasons__title .title__text {
+  color: #000;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 52.8px */
+  text-transform: uppercase;
+}
+.reasons .reasons__title .title__text .text__custom {
+  color: #8d8be5;
+  font-family: Hauora;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+.reasons .reasons__title .title__text .text__custom svg {
+  margin-bottom: 20px;
+}
+.reasons .reasons__list {
+  margin-top: 66px;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}/*# sourceMappingURL=Reason.module.css.map */

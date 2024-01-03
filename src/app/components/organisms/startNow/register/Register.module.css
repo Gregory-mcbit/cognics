@@ -1,0 +1,79 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register .register__title .title__text {
+  color: #8d8be5;
+  font-family: Hauora;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 26.4px */
+  text-transform: uppercase;
+}
+.register .register__description {
+  max-width: 200px;
+  margin-top: 9px;
+  text-align: center;
+}
+.register .register__description .description__text {
+  color: #707070;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+.register .register__inputs {
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.register .register__create_account {
+  border-radius: 10px;
+  background: #8d8be5;
+  transition: all 0.3s;
+  margin-top: 30px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register .register__create_account .create_account__text {
+  color: #fff;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+.register .register__create_account:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.register .register_sign_in {
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+.register .register_sign_in .sign_in__text {
+  color: #707070;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 15.4px */
+}
+.register .register_sign_in:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}/*# sourceMappingURL=Register.module.css.map */

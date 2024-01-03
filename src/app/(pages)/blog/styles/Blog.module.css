@@ -1,0 +1,8 @@
+.blog {
+  background: #f5f5f5;
+}
+.blog .blog__main {
+  margin: 0 auto;
+  max-width: 1180px;
+  width: 100%;
+}/*# sourceMappingURL=Blog.module.css.map */

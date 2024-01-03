@@ -1,0 +1,55 @@
+.info {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: #fff;
+  height: 360px;
+
+  .info__inner {
+    padding: 30px 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+
+    .inner__title {
+      max-width: 301px;
+
+      .title__text {
+        color: #000;
+        font-family: Hauora;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%; /* 52.8px */
+        text-transform: uppercase;
+
+        .text__custom {
+          color: #8d8be5;
+          font-family: Hauora;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 110%;
+          text-transform: uppercase;
+        }
+      }
+
+      svg {
+        margin-bottom: 22px;
+        path {
+        }
+      }
+    }
+    .inner__description {
+      max-width: 376px;
+      .description__text {
+        color: #000;
+        font-family: Hauora;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 20.8px */
+      }
+    }
+  }
+}

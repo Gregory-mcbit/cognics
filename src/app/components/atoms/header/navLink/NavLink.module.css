@@ -1,0 +1,18 @@
+.nav_link {
+  transition: opacity 0.3s;
+}
+.nav_link .nav_link__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav_link:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}/*# sourceMappingURL=NavLink.module.css.map */

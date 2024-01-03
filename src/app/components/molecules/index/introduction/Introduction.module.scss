@@ -1,0 +1,52 @@
+.introduction {
+  border-radius: 20px;
+  background: #fff;
+  width: 590px;
+  height: 400px;
+
+  .introduction__inner {
+    padding: 37px 0 23px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+
+    .inner__heading {
+      max-width: 423px;
+
+      .heading__text {
+        color: #000;
+        font-family: Hauora;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%; /* 52.8px */
+        text-transform: uppercase;
+
+        .text__custom {
+          color: #8d8be5;
+          font-family: Hauora;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 110%;
+          text-transform: uppercase;
+
+          svg {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+
+    .inner__description {
+      .description__text {
+        color: #000;
+        font-family: Hauora;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 20.8px */
+      }
+    }
+  }
+}

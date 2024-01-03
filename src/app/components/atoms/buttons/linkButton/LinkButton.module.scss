@@ -1,0 +1,32 @@
+.link_button {
+  width: 100%;
+  transition: opacity 0.3s;
+  border: 1px solid #000;
+  border-radius: 100px;
+
+  .link_button__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link_button__title {
+      .title__text {
+        color: #000;
+        font-family: Hauora;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+
+    .link_button__image {
+      display: flex;
+    }
+  }
+
+  &:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}

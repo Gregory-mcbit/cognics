@@ -1,0 +1,134 @@
+.sidebar {
+  border-radius: 20px;
+  background: #fff;
+  width: 260px;
+  position: relative;
+}
+.sidebar .sidebar__profile {
+  border-radius: 20px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 254px;
+  z-index: 1;
+  position: relative;
+}
+.sidebar .sidebar__profile .profile__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar .sidebar__profile .profile__inner .inner__avatar {
+  display: flex;
+  border-radius: 50%;
+  position: relative;
+}
+.sidebar .sidebar__profile .profile__inner .inner__avatar .avatar__stars {
+  position: absolute;
+  top: -11px;
+  right: -11px;
+}
+.sidebar .sidebar__profile .profile__inner .inner__name {
+  margin-top: 15px;
+  text-align: center;
+}
+.sidebar .sidebar__profile .profile__inner .inner__name .name__text {
+  color: #000;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sidebar .sidebar__profile .profile__inner .inner__status {
+  text-align: center;
+}
+.sidebar .sidebar__profile .profile__inner .inner__status .status__text {
+  color: #9697a7;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sidebar .sidebar__change_profile {
+  border-radius: 0px 0px 20px 20px;
+  background: #8d8be5;
+  padding: 52px 44px 21px 43px;
+  position: absolute;
+  top: 223px;
+  z-index: 0;
+}
+.sidebar .sidebar__change_profile .change_profile__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar .sidebar__change_profile .change_profile__inner .inner__edit {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.sidebar .sidebar__change_profile .change_profile__inner .inner__edit .edit__title .title__text {
+  color: #fff;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+}
+.sidebar .sidebar__optional {
+  margin-top: 86px;
+  padding: 0 15px 24px 10px;
+}
+.sidebar .sidebar__optional .optional__inner .inner__title .title__text {
+  color: #9697a7;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sidebar .sidebar__optional .optional__inner .inner__controls {
+  margin-top: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sidebar .sidebar__optional .optional__inner .inner__about {
+  margin-top: 42px;
+}
+.sidebar .sidebar__optional .optional__inner .inner__about .about__title .title__text {
+  color: #9697a7;
+  text-align: center;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sidebar .sidebar__optional .optional__inner .inner__about .about__change_password {
+  margin-top: 8px;
+}
+.sidebar .sidebar__optional .optional__inner .inner__about .about__change_password .change_password__text {
+  color: #8d8be5;
+  font-family: Hauora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.sidebar .sidebar__optional .optional__inner .inner__about .about__exit .exit__text {
+  color: #fe7547;
+  font-family: Hauora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=Sidebar.module.css.map */

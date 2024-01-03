@@ -1,0 +1,20 @@
+.stat .stat__title .title__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 40.8px */
+}
+.stat .stat__description {
+  margin-top: 6px;
+  max-width: 130px;
+}
+.stat .stat__description .description__text {
+  color: #747474;
+  font-family: Hauora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 18px */
+}/*# sourceMappingURL=Stat.module.css.map */

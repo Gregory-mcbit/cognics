@@ -1,0 +1,12 @@
+.start_now {
+  width: 100%;
+  border-radius: 20px;
+  background: #fff;
+  margin-top: 120px;
+}
+.start_now .start_now__inner {
+  padding: 47px 0px 50px 40px;
+  display: flex;
+  align-items: center;
+  gap: 170px;
+}/*# sourceMappingURL=StartNow.module.css.map */

@@ -1,0 +1,37 @@
+.qualifications {
+  border-radius: 20px;
+  background: #8d8be5;
+  width: 100%;
+  height: 540px;
+}
+.qualifications .qualifications__header .header__inner {
+  padding: 31px 65px 29px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.qualifications .qualifications__header .header__inner .inner__tab .tab__text {
+  color: #fff;
+  font-family: Hauora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 19.8px */
+  text-transform: uppercase;
+}
+.qualifications .qualifications__inner {
+  padding: 0px 19px 0px 19px;
+}
+.qualifications .qualifications__inner .qualifications__separator {
+  background: #f4f4f4;
+  height: 2px;
+  width: 100%;
+}
+.qualifications .qualifications__inner .qualifications__main {
+  margin-top: 28px;
+}
+.qualifications .qualifications__inner .qualifications__main .main__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}/*# sourceMappingURL=Qualifications.module.css.map */

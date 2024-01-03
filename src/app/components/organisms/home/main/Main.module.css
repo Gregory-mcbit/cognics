@@ -1,0 +1,130 @@
+.main {
+  position: relative;
+}
+.main .main__calendar {
+  background: #8d8be5;
+  width: 450px;
+  height: 500px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 10;
+}
+.main .main__sessions {
+  position: absolute;
+  border-radius: 20px;
+  background: #fff;
+  padding: 100px 24px 0px 26px;
+  top: 400px;
+  z-index: 0;
+}
+.main .main__sessions .sessions__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+.main .main__sessions .sessions__inner .inner__left .left__heading .heading__caption {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.main .main__sessions .sessions__inner .inner__left .left__heading .heading__caption .caption__image {
+  display: flex;
+}
+.main .main__sessions .sessions__inner .inner__left .left__heading .heading__caption .caption__title .title__text {
+  color: #000;
+  font-family: Hauora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 20px */
+  text-transform: uppercase;
+}
+.main .main__sessions .sessions__inner .inner__left .left__heading .heading__description {
+  margin-top: 8px;
+}
+.main .main__sessions .sessions__inner .inner__left .left__heading .heading__description .description__text {
+  color: #999;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 14px */
+}
+.main .main__sessions .sessions__inner .inner__left .left__psycho {
+  margin-top: 25px;
+}
+.main .main__sessions .sessions__inner .inner__left .left__psycho .psycho__title .title__text {
+  color: #999;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 14px */
+}
+.main .main__sessions .sessions__inner .inner__left .left__psycho .psycho__name .name__text {
+  color: #8d8be5;
+  font-family: Hauora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 18px */
+}
+.main .main__sessions .sessions__inner .inner__left .left__date {
+  margin-top: 14px;
+}
+.main .main__sessions .sessions__inner .inner__left .left__date .date__title .title__text {
+  color: #999;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 14px */
+}
+.main .main__sessions .sessions__inner .inner__left .left__date .date__name .name__text {
+  color: #8d8be5;
+  font-family: Hauora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 18px */
+}
+.main .main__sessions .sessions__inner .inner__separator {
+  background: rgba(0, 0, 0, 0.15);
+  width: 1px;
+  height: 210px;
+}
+.main .main__sessions .sessions__inner .inner__right .right__start .start__title .title__text {
+  color: #999;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 14px */
+}
+.main .main__sessions .sessions__inner .inner__right .right__start .start__time .time__text {
+  color: #8d8be5;
+  font-family: Hauora;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 30px */
+  text-transform: uppercase;
+}
+.main .main__sessions .sessions__inner .inner__right .right__start .start__title .title__text {
+  color: #999;
+  font-family: Hauora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 14px */
+}
+.main .main__sessions .sessions__inner .inner__right .right__start .start__time .time__text {
+  color: #8d8be5;
+  font-family: Hauora;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 30px */
+  text-transform: uppercase;
+}/*# sourceMappingURL=Main.module.css.map */
